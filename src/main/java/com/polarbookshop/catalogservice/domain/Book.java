@@ -7,7 +7,7 @@ import jakarta.validation.constraints.Positive;
 
 public record Book (
 
-
+   
        
 
     @NotBlank(message = "The book ISBN must be defined.")
